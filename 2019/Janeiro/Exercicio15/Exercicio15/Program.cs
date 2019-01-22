@@ -14,18 +14,18 @@ namespace Exercicio15
 
             int numero = 0;
             int contador = 0;
-            Console.WriteLine("Informe um número")
-            numero = Int32(Console.ReadLine());
+            Console.WriteLine("Informe um número");
+            numero = Int32.Parse(Console.ReadLine());
             if(numero % 2 == 0)
             {
-                Console.WritLine("O número que você digitou é par. Vamos usar ele.");
+                Console.WriteLine("O número que você digitou é par. Vamos usar ele.");
             }
             else
             {
                 numero++;
-                Consloe.WriteLine("O número que você digitou é par. Vamos usar ele esse " +numero + ".");
+                Console.WriteLine("O número que você digitou é ímpar. Vamos usar esse " +numero + ".");
             }
-            for(contador = 0; contdor <= numreo ; contador = contador + 2)
+            for(contador = 0; contador <= numero ; contador = contador + 2)
             {
                 Console.WriteLine(contador);
             }
